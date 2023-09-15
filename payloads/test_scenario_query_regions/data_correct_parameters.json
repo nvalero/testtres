@@ -1,0 +1,22 @@
+{
+    "filters": {
+        "years": [
+            "2022"
+        ],
+        "areas": [
+            "1","2"
+        ],
+        "macroregions": [
+            "1","2"
+        ],
+        "microregions": [
+            "1","2","3"
+        ],
+        "environments": [
+            "1","2"
+        ],
+        "plantingDates": [
+            "1","2"
+        ]
+    }
+}

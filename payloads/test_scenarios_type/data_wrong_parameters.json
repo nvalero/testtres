@@ -1,0 +1,43 @@
+{
+  "naxme": "asdf",
+  "counxtry": "1",
+  "rouxtine": "1",
+  "regixons": [
+    "28",
+    "66"
+  ],
+  "materxials": [
+    "21799792",
+    "21830889"
+  ],
+  "filxters": {
+    "yeaxrs": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "arxeas": [
+      "1",
+      "2"
+    ],
+    "macroxregions": [
+      "1"
+    ],
+    "microrxegions": [
+      "1",
+      "2"
+    ],
+    "envixronments": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "plantxingDates": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

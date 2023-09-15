@@ -1,0 +1,10 @@
+{
+  "values": [
+    "area",
+    "macro-region",
+    "sub-region",
+    "scenario.environment",
+    "scenario.planting-date",
+    "scenario.year"
+  ]
+}

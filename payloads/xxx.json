@@ -1,0 +1,81 @@
+from enum import Enum
+from typing import List, Optional
+from uuid import UUID
+
+
+class Area(Enum):
+    DEVELOPMENT = "Development"
+    RESEARCH = "Research"
+
+
+class PlantingDate(Enum):
+    EARLY = "Early"
+    LATE = "Late"
+    MEDIUM = "Medium"
+    N_A = "N/A"
+
+
+class Filters:
+    years: List[int]
+    areas: List[Area]
+    macroregions: List[str]
+    microregions: List[str]
+    planting_dates: List[PlantingDate]
+    environments: List[str]
+
+    def __init__(self, years: List[int], areas: List[Area], macroregions: List[str], microregions: List[str], planting_dates: List[PlantingDate], environments: List[str]) -> None:
+        self.years = years
+        self.areas = areas
+        self.macroregions = macroregions
+        self.microregions = microregions
+        self.planting_dates = planting_dates
+        self.environments = environments
+
+
+class Result:
+    id: UUID
+    name: str
+    description: str
+    country: int
+    owner: str
+    status: str
+    version: int
+    location: int
+    gid: int
+    regions: Optional[List[int]]
+    materials: Optional[List[int]]
+    filters: Filters
+    derived: Optional[List['Result']]
+
+    def __init__(self, id: UUID, name: str, description: str, country: int, owner: str, status: str, version: int, location: int, gid: int, regions: Optional[List[int]], materials: Optional[List[int]], filters: Filters, derived: Optional[List['Result']]) -> None:
+        self.id = id
+        self.name = name
+        self.description = description
+        self.country = country
+        self.owner = owner
+        self.status = status
+        self.version = version
+        self.location = location
+        self.gid = gid
+        self.regions = regions
+        self.materials = materials
+        self.filters = filters
+        self.derived = derived
+
+
+class Data:
+    results: List[Result]
+
+    def __init__(self, results: List[Result]) -> None:
+        self.results = results
+
+
+class Welcome4:
+    correlation_id: str
+    status: str
+    data: Data
+
+    def __init__(self, correlation_id: str, status: str, data: Data) -> None:
+        self.correlation_id = correlation_id
+        self.status = status
+        self.data = data

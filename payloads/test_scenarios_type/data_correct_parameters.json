@@ -1,0 +1,43 @@
+{
+  "name": "asdf",
+  "country": "1",
+  "routine": "1",
+  "regions": [
+    "28",
+    "66"
+  ],
+  "materials": [
+    "21799792",
+    "21830889"
+  ],
+  "filters": {
+    "years": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "areas": [
+      "1",
+      "2"
+    ],
+    "macroregions": [
+      "1"
+    ],
+    "microregions": [
+      "1",
+      "2"
+    ],
+    "environments": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "plantingDates": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

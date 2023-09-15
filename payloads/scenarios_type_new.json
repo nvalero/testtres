@@ -1,0 +1,15 @@
+{
+    "name": "ARG 18",
+    "country": "1",
+    "routine": "1",
+    "regions": ["1","2"],
+    "materials": ["1"],
+    "filters": {
+        "years": ["2023"],
+        "areas": ["1"],
+        "macroregions": ["1"],
+        "microregions": ["1"],
+        "environments": ["1"],
+        "plantingDates": ["1"]
+    }
+}

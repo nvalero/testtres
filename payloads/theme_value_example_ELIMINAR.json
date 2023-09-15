@@ -1,0 +1,837 @@
+{
+  "correlationId": "aeb4adcbcfb7694aa35dfd26aa0084cc",
+  "status": "OK",
+  "data": {
+    "results": {
+      "area": [
+        {
+          "id": "1",
+          "name": "Research"
+        },
+        {
+          "id": "2",
+          "name": "Development"
+        }
+      ],
+      "country": [
+        {
+          "id": "1",
+          "name": "ARGENTINA"
+        },
+        {
+          "id": "2",
+          "name": "BRASIL"
+        },
+        {
+          "id": "3",
+          "name": "USA"
+        }
+      ],
+      "potato": {
+        "code": 400,
+        "description": "BAD_REQUEST",
+        "information": "No value named 'potato' available"
+      },
+      "scenario_status": [
+        {
+          "id": "1",
+          "name": "Ready to run"
+        },
+        {
+          "id": "2",
+          "name": "Running"
+        },
+        {
+          "id": "3",
+          "name": "Pending"
+        },
+        {
+          "id": "4",
+          "name": "Available"
+        },
+        {
+          "id": "5",
+          "name": "No data"
+        },
+        {
+          "id": "6",
+          "name": "Error"
+        }
+      ],
+      "sub_region": [
+        {
+          "id": "1",
+          "name": "CORDOBA",
+          "parent": "1"
+        },
+        {
+          "id": "2",
+          "name": "STA FE",
+          "parent": "1"
+        },
+        {
+          "id": "3",
+          "name": "CENTRO BSAS",
+          "parent": "2"
+        },
+        {
+          "id": "4",
+          "name": "MAR Y SIERRAS",
+          "parent": "2"
+        },
+        {
+          "id": "5",
+          "name": "SUDOESTE",
+          "parent": "2"
+        },
+        {
+          "id": "6",
+          "name": "GENERICA",
+          "parent": "3"
+        },
+        {
+          "id": "7",
+          "name": "COSTA BS AS",
+          "parent": "4"
+        },
+        {
+          "id": "8",
+          "name": "ENTRE RIOS",
+          "parent": "4"
+        },
+        {
+          "id": "9",
+          "name": "URUGUAY",
+          "parent": "4"
+        },
+        {
+          "id": "10",
+          "name": "NEA",
+          "parent": "5"
+        },
+        {
+          "id": "11",
+          "name": "NEA NORTE",
+          "parent": "5"
+        },
+        {
+          "id": "12",
+          "name": "NEA SUR",
+          "parent": "5"
+        },
+        {
+          "id": "13",
+          "name": "NOA",
+          "parent": "5"
+        },
+        {
+          "id": "14",
+          "name": "NOA NORTE",
+          "parent": "5"
+        },
+        {
+          "id": "15",
+          "name": "NOA SUR",
+          "parent": "5"
+        },
+        {
+          "id": "16",
+          "name": "NUCLEO",
+          "parent": "6"
+        },
+        {
+          "id": "17",
+          "name": "NUCLEO N",
+          "parent": "6"
+        },
+        {
+          "id": "18",
+          "name": "OESTE HUMEDO",
+          "parent": "6"
+        },
+        {
+          "id": "19",
+          "name": "OESTE ARENOSO",
+          "parent": "7"
+        },
+        {
+          "id": "20",
+          "name": "101",
+          "parent": "8"
+        },
+        {
+          "id": "21",
+          "name": "102",
+          "parent": "8"
+        },
+        {
+          "id": "22",
+          "name": "103",
+          "parent": "8"
+        },
+        {
+          "id": "23",
+          "name": "103T",
+          "parent": "8"
+        },
+        {
+          "id": "24",
+          "name": "104",
+          "parent": "8"
+        },
+        {
+          "id": "25",
+          "name": "M1-M2-M3-M4-M5",
+          "parent": "9"
+        },
+        {
+          "id": "26",
+          "name": "201A",
+          "parent": "10"
+        },
+        {
+          "id": "27",
+          "name": "201B",
+          "parent": "10"
+        },
+        {
+          "id": "28",
+          "name": "202",
+          "parent": "10"
+        },
+        {
+          "id": "29",
+          "name": "203",
+          "parent": "10"
+        },
+        {
+          "id": "30",
+          "name": "203A",
+          "parent": "10"
+        },
+        {
+          "id": "31",
+          "name": "203B",
+          "parent": "10"
+        },
+        {
+          "id": "32",
+          "name": "204",
+          "parent": "10"
+        },
+        {
+          "id": "33",
+          "name": "205",
+          "parent": "10"
+        },
+        {
+          "id": "34",
+          "name": "206",
+          "parent": "10"
+        },
+        {
+          "id": "35",
+          "name": "301",
+          "parent": "11"
+        },
+        {
+          "id": "36",
+          "name": "302",
+          "parent": "11"
+        },
+        {
+          "id": "37",
+          "name": "302SMG",
+          "parent": "11"
+        },
+        {
+          "id": "38",
+          "name": "303",
+          "parent": "11"
+        },
+        {
+          "id": "39",
+          "name": "304",
+          "parent": "11"
+        },
+        {
+          "id": "40",
+          "name": "401GO",
+          "parent": "11"
+        },
+        {
+          "id": "41",
+          "name": "401",
+          "parent": "12"
+        },
+        {
+          "id": "42",
+          "name": "402A",
+          "parent": "12"
+        },
+        {
+          "id": "43",
+          "name": "402B",
+          "parent": "12"
+        },
+        {
+          "id": "44",
+          "name": "402C",
+          "parent": "12"
+        },
+        {
+          "id": "45",
+          "name": "402O",
+          "parent": "12"
+        },
+        {
+          "id": "46",
+          "name": "403",
+          "parent": "12"
+        },
+        {
+          "id": "47",
+          "name": "404",
+          "parent": "12"
+        },
+        {
+          "id": "48",
+          "name": "404GO",
+          "parent": "13"
+        },
+        {
+          "id": "49",
+          "name": "404TO",
+          "parent": "13"
+        },
+        {
+          "id": "50",
+          "name": "405",
+          "parent": "13"
+        },
+        {
+          "id": "51",
+          "name": "501",
+          "parent": "13"
+        },
+        {
+          "id": "52",
+          "name": "501-502-503-504",
+          "parent": "13"
+        },
+        {
+          "id": "53",
+          "name": "501MA",
+          "parent": "13"
+        },
+        {
+          "id": "54",
+          "name": "501PA",
+          "parent": "13"
+        },
+        {
+          "id": "55",
+          "name": "501PI",
+          "parent": "13"
+        },
+        {
+          "id": "56",
+          "name": "501TO",
+          "parent": "13"
+        },
+        {
+          "id": "57",
+          "name": "502",
+          "parent": "13"
+        },
+        {
+          "id": "58",
+          "name": "502MA",
+          "parent": "13"
+        },
+        {
+          "id": "59",
+          "name": "502PA",
+          "parent": "13"
+        },
+        {
+          "id": "60",
+          "name": "503",
+          "parent": "13"
+        },
+        {
+          "id": "61",
+          "name": "504",
+          "parent": "13"
+        },
+        {
+          "id": "62",
+          "name": "ILLINOIS",
+          "parent": "14"
+        },
+        {
+          "id": "63",
+          "name": "INDIANA",
+          "parent": "14"
+        },
+        {
+          "id": "64",
+          "name": "MISSOURI",
+          "parent": "14"
+        },
+        {
+          "id": "65",
+          "name": "GEORGIA",
+          "parent": "15"
+        },
+        {
+          "id": "66",
+          "name": "MARYLAND",
+          "parent": "15"
+        },
+        {
+          "id": "67",
+          "name": "NORTH CAROLINA",
+          "parent": "15"
+        },
+        {
+          "id": "68",
+          "name": "PENNSYLVANIA",
+          "parent": "15"
+        },
+        {
+          "id": "69",
+          "name": "SOUTH CAROLINA",
+          "parent": "15"
+        },
+        {
+          "id": "70",
+          "name": "VIRGINIA",
+          "parent": "15"
+        },
+        {
+          "id": "71",
+          "name": "INDIANA",
+          "parent": "16"
+        },
+        {
+          "id": "72",
+          "name": "KENTUCKY",
+          "parent": "16"
+        },
+        {
+          "id": "73",
+          "name": "OHIO",
+          "parent": "16"
+        },
+        {
+          "id": "74",
+          "name": "GENERIC",
+          "parent": "17"
+        },
+        {
+          "id": "75",
+          "name": "MICHIGAN",
+          "parent": "18"
+        },
+        {
+          "id": "76",
+          "name": "MINNESOTA",
+          "parent": "18"
+        },
+        {
+          "id": "77",
+          "name": "WISCONSIN",
+          "parent": "18"
+        },
+        {
+          "id": "78",
+          "name": "MARYLAND",
+          "parent": "19"
+        },
+        {
+          "id": "79",
+          "name": "VIRGINIA",
+          "parent": "19"
+        },
+        {
+          "id": "80",
+          "name": "ARKANSAS",
+          "parent": "20"
+        },
+        {
+          "id": "81",
+          "name": "ILLINOIS",
+          "parent": "20"
+        },
+        {
+          "id": "82",
+          "name": "KENTUCKY",
+          "parent": "20"
+        },
+        {
+          "id": "83",
+          "name": "LOUISIANA",
+          "parent": "20"
+        },
+        {
+          "id": "84",
+          "name": "MISSISSIPPI",
+          "parent": "20"
+        },
+        {
+          "id": "85",
+          "name": "MISSOURI",
+          "parent": "20"
+        },
+        {
+          "id": "86",
+          "name": "TENNESSEE",
+          "parent": "20"
+        },
+        {
+          "id": "87",
+          "name": "TEXAS",
+          "parent": "20"
+        },
+        {
+          "id": "88",
+          "name": "ILLINOIS",
+          "parent": "21"
+        },
+        {
+          "id": "89",
+          "name": "INDIANA",
+          "parent": "21"
+        },
+        {
+          "id": "90",
+          "name": "KENTUCKY",
+          "parent": "21"
+        },
+        {
+          "id": "91",
+          "name": "MISSOURI",
+          "parent": "21"
+        },
+        {
+          "id": "92",
+          "name": "OHIO",
+          "parent": "21"
+        },
+        {
+          "id": "93",
+          "name": "MINNESOTA",
+          "parent": "22"
+        },
+        {
+          "id": "94",
+          "name": "NORTH DAKOTA",
+          "parent": "22"
+        },
+        {
+          "id": "95",
+          "name": "SOUTH DAKOTA",
+          "parent": "22"
+        },
+        {
+          "id": "96",
+          "name": "WISCONSIN",
+          "parent": "22"
+        },
+        {
+          "id": "97",
+          "name": "KENTUCKY",
+          "parent": "23"
+        },
+        {
+          "id": "98",
+          "name": "MARYLAND",
+          "parent": "23"
+        },
+        {
+          "id": "99",
+          "name": "MISSISSIPPI",
+          "parent": "23"
+        },
+        {
+          "id": "100",
+          "name": "MISSOURI",
+          "parent": "23"
+        },
+        {
+          "id": "101",
+          "name": "ILLINOIS",
+          "parent": "24"
+        },
+        {
+          "id": "102",
+          "name": "IOWA",
+          "parent": "24"
+        },
+        {
+          "id": "103",
+          "name": "NEBRASKA",
+          "parent": "24"
+        },
+        {
+          "id": "104",
+          "name": "SOUTH DAKOTA",
+          "parent": "24"
+        },
+        {
+          "id": "105",
+          "name": "WISCONSION",
+          "parent": "24"
+        },
+        {
+          "id": "106",
+          "name": "ILLINOIS",
+          "parent": "25"
+        },
+        {
+          "id": "107",
+          "name": "IOWA",
+          "parent": "25"
+        },
+        {
+          "id": "108",
+          "name": "KANSAS",
+          "parent": "25"
+        },
+        {
+          "id": "109",
+          "name": "MICHIGAN",
+          "parent": "25"
+        },
+        {
+          "id": "110",
+          "name": "MINNESOTA",
+          "parent": "25"
+        },
+        {
+          "id": "111",
+          "name": "NEBRASKA",
+          "parent": "25"
+        },
+        {
+          "id": "112",
+          "name": "NORTH DAKOTA",
+          "parent": "25"
+        },
+        {
+          "id": "113",
+          "name": "OHIO",
+          "parent": "25"
+        },
+        {
+          "id": "114",
+          "name": "SOUTH DAKOTA",
+          "parent": "25"
+        },
+        {
+          "id": "115",
+          "name": "WISCONSION",
+          "parent": "25"
+        },
+        {
+          "id": "116",
+          "name": "ILLINOIS",
+          "parent": "26"
+        },
+        {
+          "id": "117",
+          "name": "INDIANA",
+          "parent": "26"
+        },
+        {
+          "id": "118",
+          "name": "KENTUCKY",
+          "parent": "26"
+        },
+        {
+          "id": "119",
+          "name": "OHIO",
+          "parent": "26"
+        },
+        {
+          "id": "120",
+          "name": "NORTH CAROLINA",
+          "parent": "27"
+        },
+        {
+          "id": "121",
+          "name": "SOUTH CAROLINA",
+          "parent": "27"
+        },
+        {
+          "id": "122",
+          "name": "ARIZONA",
+          "parent": "28"
+        },
+        {
+          "id": "123",
+          "name": "KANSAS",
+          "parent": "28"
+        },
+        {
+          "id": "124",
+          "name": "MISSOURI",
+          "parent": "28"
+        },
+        {
+          "id": "125",
+          "name": "NEBRASKA",
+          "parent": "28"
+        },
+        {
+          "id": "126",
+          "name": "TEXAS",
+          "parent": "28"
+        }
+      ],
+      "macro_region": [
+        {
+          "id": "1",
+          "name": "CENTRO NORTE",
+          "parent": "1"
+        },
+        {
+          "id": "2",
+          "name": "CENTRO-SUR BSAS",
+          "parent": "1"
+        },
+        {
+          "id": "3",
+          "name": "GENERICA",
+          "parent": "1"
+        },
+        {
+          "id": "4",
+          "name": "LITORAL",
+          "parent": "1"
+        },
+        {
+          "id": "5",
+          "name": "NORTE",
+          "parent": "1"
+        },
+        {
+          "id": "6",
+          "name": "NUCLEO",
+          "parent": "1"
+        },
+        {
+          "id": "7",
+          "name": "OESTE ARENOSO",
+          "parent": "1"
+        },
+        {
+          "id": "8",
+          "name": "M1",
+          "parent": "2"
+        },
+        {
+          "id": "9",
+          "name": "M1-M2-M3-M4-M5",
+          "parent": "2"
+        },
+        {
+          "id": "10",
+          "name": "M2",
+          "parent": "2"
+        },
+        {
+          "id": "11",
+          "name": "M3",
+          "parent": "2"
+        },
+        {
+          "id": "12",
+          "name": "M4",
+          "parent": "2"
+        },
+        {
+          "id": "13",
+          "name": "M5",
+          "parent": "2"
+        },
+        {
+          "id": "14",
+          "name": "CENTRAL CORN BELT",
+          "parent": "3"
+        },
+        {
+          "id": "15",
+          "name": "EAST COAST",
+          "parent": "3"
+        },
+        {
+          "id": "16",
+          "name": "EASTERN CORN BELT",
+          "parent": "3"
+        },
+        {
+          "id": "17",
+          "name": "GENERIC",
+          "parent": "3"
+        },
+        {
+          "id": "18",
+          "name": "GRAND LAKES",
+          "parent": "3"
+        },
+        {
+          "id": "19",
+          "name": "MID ATLANTIC",
+          "parent": "3"
+        },
+        {
+          "id": "20",
+          "name": "MID SOUTH",
+          "parent": "3"
+        },
+        {
+          "id": "21",
+          "name": "MID WEST",
+          "parent": "3"
+        },
+        {
+          "id": "22",
+          "name": "MINDAKA",
+          "parent": "3"
+        },
+        {
+          "id": "23",
+          "name": "NORTH CENTRAL",
+          "parent": "3"
+        },
+        {
+          "id": "24",
+          "name": "NORTHERN CORN BELT",
+          "parent": "3"
+        },
+        {
+          "id": "25",
+          "name": "NORTHERN PLAINS",
+          "parent": "3"
+        },
+        {
+          "id": "26",
+          "name": "SOUTH CORN BELT",
+          "parent": "3"
+        },
+        {
+          "id": "27",
+          "name": "SOUTH EAST",
+          "parent": "3"
+        },
+        {
+          "id": "28",
+          "name": "WEST",
+          "parent": "3"
+        }
+      ]
+    }
+  }
+}

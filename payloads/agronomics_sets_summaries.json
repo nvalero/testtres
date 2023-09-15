@@ -1,0 +1,14 @@
+{
+    "name": "Summary_1",
+    "rating": "14",
+    "measurements": [
+        {
+            "material": "21799792",
+            "median": "0.2",
+            "minimum": "0.5",
+            "maximum": "0.5",
+            "mode": "1.2",
+            "nLuf": "2.4"
+        }
+    ]
+}

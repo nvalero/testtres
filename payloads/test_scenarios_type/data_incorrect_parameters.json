@@ -1,0 +1,31 @@
+{
+  "name": "asdf",
+  "country": "99",
+  "rouxtine": "99",
+  "regions": [
+    "2866"
+  ],
+  "materials": [
+    "2179979221830889"
+  ],
+  "filters": {
+    "years": [
+      "3000"
+    ],
+    "areas": [
+      "8"
+    ],
+    "macroregions": [
+      "1"
+    ],
+    "microregions": [
+      "8"
+    ],
+    "environments": [
+      "100"
+    ],
+    "plantingDates": [
+      "8"
+    ]
+  }
+}
