@@ -38,6 +38,7 @@ jobs:
         echo "$ {{ secrets.RESULT3 }}  "
         echo "$ {{ vars.RESULT4 }}  "
         echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
-        pytest tests/test_display_filter_results.py
         echo $MY_ENV_VAR
         echo $MY_ENV_VAR2
+        echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
+        pytest tests/test_display_filter_results.py::test_not_using_parameters
