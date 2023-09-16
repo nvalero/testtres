@@ -2,19 +2,15 @@
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
 name: Python application
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
 permissions:
   contents: read
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -23,22 +19,6 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
-        super_secret1: ${{ secrets.RESULT2 }}
-        
-        super_secret11: ${{ secrets.RESULT1 }}
-        super_secret2: ${{ toJson(secrets) }}
-        super_secret3: ${{ vars.RESULT4 }}
-        super_secret4: ${{ github.repository }}
-        super_secret5: ${{ matrix }}
-        
-        super_secret6: ${{ secrets.RESULT4 }}
-        super_secret7: ${{ secrets.RESULT55 }}
-        super_secret8: ${{ vars.RESULT55 }}
-        
-        super_secret9: ${{ secrets.RESULT4 }}
-        super_secret10: ${{ secrets.RESULT55 }}
-        super_secret12: ${{ vars.RESULT2 }}
-        super_secret13: ${{ vars.RESULT1 }}
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -46,33 +26,22 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest        
       env:
-        e1: ${{ secrets.RESULT2 }}
-        
         e11: ${{ secrets.RESULT1 }}
         e2: ${{ toJson(secrets) }}
         e3: ${{ vars.RESULT4 }}
         e4: ${{ github.repository }}
-        e5: ${{ matrix }}
-        
-        e6: ${{ secrets.RESULT4 }}
-        e7: ${{ secrets.RESULT55 }}
         e8: ${{ vars.RESULT55 }}
-        
-        e9: ${{ secrets.RESULT4 }}
-        e10: ${{ secrets.RESULT55 }}
-        e12: ${{ vars.RESULT2 }}
-        e13: ${{ vars.RESULT1 }}
       run: |
-        echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
-        echo "bbbbbbbbbbbbbbbbbbbbbbbbbX----------------->"
         echo $e2
-        echo "e3-->"
         echo $e3
         echo $e4
         echo $e8
-        echo "e11-->"
         echo $e11
-       
-        echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
         python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
-
+    - name: Store reports
+      uses: actions/upload-artifact@v2
+      with:
+        name: linux-reports
+        path: build/reports/
+    
+      
