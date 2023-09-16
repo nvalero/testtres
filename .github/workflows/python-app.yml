@@ -86,6 +86,6 @@ jobs:
         echo $e12
         echo $e13
         echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
-        pytest tests/porhacer/test_scenarios_type.py::test_wrong_parameters
+        pytest tests/test_scenarios_by_id.py::test_incorrect_parameters
         python -m pytest --html=report.html
 
