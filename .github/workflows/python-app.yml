@@ -35,5 +35,5 @@ jobs:
         echo "$ {{ secrets.RESULT3 }}  "
         echo "$ {{ vars.RESULT4 }}  "
         echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
-        pytest test/test_display_filter_results.py
+        pytest tests/test_display_filter_results.py
         
