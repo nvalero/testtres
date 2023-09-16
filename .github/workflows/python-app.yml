@@ -106,3 +106,5 @@ jobs:
         echo $e13
         echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
         pytest tests/test_display_filter_results.py::test_not_using_parameters
+        python -m pytest --html=report.html
+
