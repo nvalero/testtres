@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v3, actions/upload-artifact@v3
       with:
         python-version: "3.10"
     - name: Install dependencies
@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest        
+    - name: Test with pytest
       env:
         e11: ${{ secrets.RESULT1 }}
         e2: ${{ toJson(secrets) }}
