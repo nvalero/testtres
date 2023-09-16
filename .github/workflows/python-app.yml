@@ -44,5 +44,8 @@ jobs:
       with:
         name: linux-reports
         path: utils/
+    - run: echo hello > world.txt
+    - uses: actions/upload-artifact@v3
+
     
       
