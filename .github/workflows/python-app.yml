@@ -30,6 +30,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        echo "$ {{ secrets.RESULT1 }}  "
-        pytest
+        echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
+        echo "$ {{ secrets.RESULT2 }}  "
+        echo "$ {{ secrets.RESULT3 }}  "
+        echo "$ {{ vars.RESULT4 }}  "
+        echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
+        pytest test_display_filter_results.py
         
