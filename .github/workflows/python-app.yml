@@ -18,6 +18,8 @@ jobs:
     - name: Set up Python 3.10
       uses: actions/setup-python@v3, actions/upload-artifact@v3
       with:
+        name: my-artifact
+        path: /tests
         python-version: "3.10"
     - name: Install dependencies
       run: |
