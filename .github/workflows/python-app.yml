@@ -87,5 +87,5 @@ jobs:
         echo $e13
         echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
         pytest tests/test_scenarios_by_id.py::test_incorrect_parameters
-        python -m pytest --html=report.html
+        python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
 
