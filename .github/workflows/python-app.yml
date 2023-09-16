@@ -65,27 +65,14 @@ jobs:
       run: |
         echo "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX----------------->"
         echo "bbbbbbbbbbbbbbbbbbbbbbbbbX----------------->"
-        echo $e1
         echo $e2
         echo "e3-->"
         echo $e3
         echo $e4
-        echo "e5-->"
-        echo $e5
-        echo $e6
-        echo "e7-->"
-        echo $e7
         echo $e8
-
-        echo "e9-->"
-        echo $e9
-        echo $e10
-        
         echo "e11-->"
         echo $e11
-        echo $e12
-        echo $e13
+       
         echo "AAAAAAAAAAAAAAAAAAAAAAA----------------->"
-        pytest tests/test_scenarios_by_id.py::test_incorrect_parameters
         python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
 
