@@ -69,6 +69,7 @@ jobs:
 
         echo $super_secret1
         echo $super_secret2
+        
         echo $super_secret3
         echo $super_secret4
         echo $super_secret5
@@ -84,14 +85,22 @@ jobs:
         echo "bbbbbbbbbbbbbbbbbbbbbbbbbX----------------->"
         echo $e1
         echo $e2
+        echo "e3-->"
         echo $e3
         echo $e4
+        echo "e5-->"
         echo $e5
         echo $e6
+        
+        echo "e7-->"
         echo $e7
         echo $e8
+      
+        echo "e9-->"
         echo $e9
         echo $e10
+        
+        echo "e11-->"
         echo $e11
         echo $e12
         echo $e13
