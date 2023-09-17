@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3, actions/upload-artifact@v3
+      uses: actions/setup-python@v3
       with:
         name: my-artifact
         path: /tests
@@ -39,8 +39,13 @@ jobs:
         echo $e4
         echo $e8
         echo $e11
-        # python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
-        python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --doctest-modules --junitxml=junit/test-results.xml
+        python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
+        # python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --doctest-modules --junitxml=junit/test-results.xml
+    - name: Store reports2
+      uses: actions/upload-artifact@v3
+      with:
+        name: linux-reports-2
+        path: report.html
     - name: Store reports
       uses: actions/upload-artifact@v2
       with:
