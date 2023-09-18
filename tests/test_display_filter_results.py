@@ -7,7 +7,7 @@ import constants.headers as headers
 import constants.general as constants
 
 #este ya está listo
-payload_path = constants.payload_path + 'test_display_filter_results\\'
+payload_path = constants.payload_path + 'test_display_filter_results/'
 endpoint = endpoints.qa_regions_url
 
 def post(payload_file, status_code_expected):
