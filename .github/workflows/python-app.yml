@@ -39,7 +39,7 @@ jobs:
         echo $e4
         echo $e8
         echo $e11
-        python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --html=report.html
+        python -m pytest tests/test_display_filter_results.py --html=report.html
         # python -m pytest tests/test_scenarios_by_id.py::test_incorrect_parameters --doctest-modules --junitxml=junit/test-results.xml
     - name: Store reports2
       uses: actions/upload-artifact@v3
