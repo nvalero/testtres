@@ -1,2 +1,2 @@
 
-payload_path = '..\\payloads\\'
+payload_path = './payloads/'
